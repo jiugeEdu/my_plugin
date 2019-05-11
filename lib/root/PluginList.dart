@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../plugin/web/PWebView.dart';
 import '../plugin/native/SystemShare.dart';
+import '../plugin/sqlite/PSqlite.dart';
 
 class PluginList extends StatefulWidget {
   final String title;
@@ -15,6 +16,7 @@ void _pressBtn(int idx, BuildContext context, var pageTitle) {
   var pages = [
     new PWebView(title: pageTitle),
     new SystemShare(title: pageTitle),
+    new PSqlite(title: pageTitle),
   ];
 
   if (pages[idx] != null) {
@@ -28,6 +30,7 @@ class _PageState extends State<PluginList> {
   final List<String> items = [
     'WebView',
     '分享',
+    'Sqlite',
   ];
 
   @override
