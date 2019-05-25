@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import '../plugin/web/PWebView.dart';
 import '../plugin/native/SystemShare.dart';
 import '../plugin/sqlite/PSqlite.dart';
+import 'package:stu_plugin/plugin/native/me_feedback.dart';
+import 'package:stu_plugin/plugin/native/me_device_info.dart';
 
 class PluginList extends StatefulWidget {
   final String title;
@@ -17,6 +19,8 @@ void _pressBtn(int idx, BuildContext context, var pageTitle) {
     new PWebView(title: pageTitle),
     new SystemShare(title: pageTitle),
     new PSqlite(title: pageTitle),
+    new MeFeedback(title: pageTitle),
+    new MeDeviceInfo(title: pageTitle),
   ];
 
   if (pages[idx] != null) {
@@ -31,6 +35,8 @@ class _PageState extends State<PluginList> {
     'WebView',
     '分享',
     'Sqlite',
+    '用户反馈',
+    '设备信息',
   ];
 
   @override
