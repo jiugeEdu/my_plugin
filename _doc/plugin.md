@@ -1,5 +1,6 @@
 ## **1.image_picker**
 功能：通过相机或相册获得图片
+
 版本：image_picker: ^0.4.10
 
 
@@ -19,4 +20,22 @@ NSString *tmpDirectory = [NSSearchPathForDirectoriesInDomains(NSDocumentDirector
 ```
 import 'package:image_picker/image_picker.dart';
 ```
+
+
+## **2.path_provider**
+功能：获得可写路径
+
+版本：path_provider: ^0.5.0+1
+
+```
+import 'package:path_provider/path_provider.dart';
+
+final directory = await getApplicationDocumentsDirectory();
+
+需要自己加 '/'
+print(directory.path)
+```
+
+
+
 
