@@ -4,6 +4,7 @@ import '../plugin/native/SystemShare.dart';
 import '../plugin/sqlite/PSqlite.dart';
 import 'package:stu_plugin/plugin/native/me_feedback.dart';
 import 'package:stu_plugin/plugin/native/me_device_info.dart';
+import 'package:stu_plugin/plugin/native/me_picture.dart';
 
 class PluginList extends StatefulWidget {
   final String title;
@@ -16,11 +17,12 @@ class PluginList extends StatefulWidget {
 
 void _pressBtn(int idx, BuildContext context, var pageTitle) {
   var pages = [
-    new PWebView(title: pageTitle),
-    new SystemShare(title: pageTitle),
-    new PSqlite(title: pageTitle),
-    new MeFeedback(title: pageTitle),
-    new MeDeviceInfo(title: pageTitle),
+    PWebView(title: pageTitle),
+    SystemShare(title: pageTitle),
+    PSqlite(title: pageTitle),
+    MeFeedback(title: pageTitle),
+    MeDeviceInfo(title: pageTitle),
+    MePicture(title: pageTitle),
   ];
 
   if (pages[idx] != null) {
@@ -37,6 +39,7 @@ class _PageState extends State<PluginList> {
     'Sqlite',
     '用户反馈',
     '设备信息',
+    '相册相机',
   ];
 
   @override

@@ -1,6 +1,8 @@
-flutter_webview_plugin=/Users/wujianchao/Documents/github/flutter1.2.1/.pub-cache/hosted/pub.flutter-io.cn/flutter_webview_plugin-0.3.3/
-path_provider=/Users/wujianchao/Documents/github/flutter1.2.1/.pub-cache/hosted/pub.flutter-io.cn/path_provider-0.5.0+1/
-share=/Users/wujianchao/Documents/github/flutter1.2.1/.pub-cache/hosted/pub.flutter-io.cn/share-0.5.3/
-shared_preferences=/Users/wujianchao/Documents/github/flutter1.2.1/.pub-cache/hosted/pub.flutter-io.cn/shared_preferences-0.4.3/
-sqflite=/Users/wujianchao/Documents/github/flutter1.2.1/.pub-cache/hosted/pub.flutter-io.cn/sqflite-1.1.5/
-url_launcher=/Users/wujianchao/Documents/github/flutter1.2.1/.pub-cache/hosted/pub.flutter-io.cn/url_launcher-4.2.0+3/
+device_info=/Users/oswin/Documents/company/ipa/test_flutter/_version/flutter1.2.1/.pub-cache/hosted/pub.flutter-io.cn/device_info-0.4.0+1/
+flutter_webview_plugin=/Users/oswin/Documents/company/ipa/test_flutter/_version/flutter1.2.1/.pub-cache/hosted/pub.flutter-io.cn/flutter_webview_plugin-0.3.3/
+image_picker=/Users/oswin/Documents/company/ipa/test_flutter/_version/flutter1.2.1/.pub-cache/hosted/pub.flutter-io.cn/image_picker-0.4.12+1/
+path_provider=/Users/oswin/Documents/company/ipa/test_flutter/_version/flutter1.2.1/.pub-cache/hosted/pub.flutter-io.cn/path_provider-0.5.0+1/
+share=/Users/oswin/Documents/company/ipa/test_flutter/_version/flutter1.2.1/.pub-cache/hosted/pub.flutter-io.cn/share-0.5.3/
+shared_preferences=/Users/oswin/Documents/company/ipa/test_flutter/_version/flutter1.2.1/.pub-cache/hosted/pub.flutter-io.cn/shared_preferences-0.4.3/
+sqflite=/Users/oswin/Documents/company/ipa/test_flutter/_version/flutter1.2.1/.pub-cache/hosted/pub.flutter-io.cn/sqflite-1.1.5/
+url_launcher=/Users/oswin/Documents/company/ipa/test_flutter/_version/flutter1.2.1/.pub-cache/hosted/pub.flutter-io.cn/url_launcher-4.2.0+3/
