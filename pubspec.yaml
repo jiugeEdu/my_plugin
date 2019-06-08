@@ -33,6 +33,8 @@ dependencies:
   json_annotation: ^2.0.0
   device_info: ^0.4.0+1
   image_picker: ^0.4.10
+  video_player: ^0.10.1+2
+  chewie: ^0.9.7
 
 dev_dependencies:
   flutter_test:
@@ -54,6 +56,7 @@ flutter:
     - _image/image_1.png
     - _image/logo.png
     - _image/wenshan_wel_logon.jpg
+    - _image/test_video.mp4
 
   # To add assets to your application, add an assets section, like this:
   # assets:
