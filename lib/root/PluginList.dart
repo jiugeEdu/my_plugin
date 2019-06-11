@@ -7,7 +7,7 @@ import 'package:stu_plugin/plugin/native/me_device_info.dart';
 import 'package:stu_plugin/plugin/native/me_picture.dart';
 import 'package:stu_plugin/plugin/native/me_video.dart';
 import 'package:stu_plugin/plugin/native/me_video2.dart';
-import 'package:stu_plugin/plugin/native/me_local_video.dart';
+import 'package:stu_plugin/plugin/native/me_video3.dart';
 
 class PluginList extends StatefulWidget {
   final String title;
@@ -48,7 +48,7 @@ class _PageState extends State<PluginList> {
     '相册相机',
     '视频1',
     '视频2',
-    '视频_本地',
+    '视频3',
   ];
 
   @override

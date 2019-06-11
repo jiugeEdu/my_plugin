@@ -33,8 +33,8 @@ dependencies:
   json_annotation: ^2.0.0
   device_info: ^0.4.0+1
   image_picker: ^0.4.10
-  video_player: ^0.10.1+2
-  chewie: ^0.9.7
+  # video_player: ^0.10.1+2
+  chewie: ^0.9.6
 
 dev_dependencies:
   flutter_test:

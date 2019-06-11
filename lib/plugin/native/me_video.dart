@@ -1,3 +1,7 @@
+/**
+ * 只有 VideoPlayerController
+ * 
+ */
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:stu_plugin/uiutils/ui_utils.dart';
@@ -83,6 +87,7 @@ class _PageState extends State < MeVideo > {
       );
     }
 
+    //video controller 缩放比
     Widget video = AspectRatio(
       aspectRatio: _controller.value.aspectRatio,
       child: VideoPlayer(_controller),

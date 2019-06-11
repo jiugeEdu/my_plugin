@@ -1,3 +1,10 @@
+/**
+ * 1.VideoPlayerController
+ * 2.ChewieController
+ * 
+ * 网络和本地视频
+ */
+
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:stu_plugin/uiutils/ui_utils.dart';
@@ -19,7 +26,7 @@ class MeVideo2 extends StatefulWidget {
 
 
 class _PageState extends State < MeVideo2 > {
-  // final url1 = 'http://img.ksbbs.com/asset/Mon_1703/05cacb4e02f9d9e.mp4';
+  final url1 = 'http://img.ksbbs.com/asset/Mon_1703/05cacb4e02f9d9e.mp4';
   final url2 = '_image/test_video.mp4';
   VideoPlayerController videoPlayerController;
   ChewieController chewieController;
@@ -40,14 +47,15 @@ class _PageState extends State < MeVideo2 > {
   @override
   void initState() {
     super.initState();
-    // videoPlayerController = VideoPlayerController.network(url2);
-    videoPlayerController = VideoPlayerController.asset(url2);
+    videoPlayerController = VideoPlayerController.network(url1);
+    // videoPlayerController = VideoPlayerController.asset(url2);
 
     chewieController = ChewieController(
       videoPlayerController: videoPlayerController,
       aspectRatio: 16 / 9,
       autoPlay: false,
-      looping: false,
+      //false有bug
+      looping: true,
       showControls: true,
       // 占位图
       placeholder: new Container(
@@ -55,11 +63,10 @@ class _PageState extends State < MeVideo2 > {
       ),
       // 是否在 UI 构建的时候就加载视频
       autoInitialize: true,
-      // startAt: Duration(microseconds: 1000),
+      startAt: Duration(microseconds: 10000),
 
       //改变控制栏只有 LIVE
       // isLive: true,
-
       // 拖动条样式颜色
       materialProgressColors: new ChewieProgressColors(
         playedColor: Colors.red,
