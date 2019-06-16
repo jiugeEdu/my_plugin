@@ -63,7 +63,7 @@ class _PageState extends State < MeVideo2 > {
       ),
       // 是否在 UI 构建的时候就加载视频
       autoInitialize: true,
-      startAt: Duration(microseconds: 10000),
+      // startAt: Duration(microseconds: 10000),
 
       //改变控制栏只有 LIVE
       // isLive: true,
